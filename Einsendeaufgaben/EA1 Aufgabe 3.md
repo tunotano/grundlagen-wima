@@ -10,10 +10,6 @@ Eine Fabrik stellt aus drei Rohstoffen $R_1$, $R_2$ und $R_3$ zwei Endprodukte $
 
 Des Weiteren sind der Vektor der Stückkosten $k$ für die Rohstoffe in Euro/ME, der Vektor der Produktionsmengen zum Auftrag a der Endprodukte und in ME, sowie der Vektor der Verkaufspreise p für die Endprodukte und in Euro/ME wie folgt gegeben:
 
-![](images/3Vektoren.png)
-
-$$\textbf{k}=\begin{pmatrix} 2 \\ 12 \\ 3 \end{pmatrix}, \quad\qquad\qquad \textbf{a}= \begin{pmatrix}  15 \\ 35 \end{pmatrix}, \quad\qquad\qquad\textbf{p}=\begin{pmatrix} 90 \\ 60 \end{pmatrix}$$
-
 ```math
 \textbf{k}=\begin{pmatrix} 2 \\ 12 \\ 3 \end{pmatrix}, \quad\qquad\qquad \textbf{a}= \begin{pmatrix}  15 \\ 35 \end{pmatrix}, \quad\qquad\qquad\textbf{p}=\begin{pmatrix} 90 \\ 60 \end{pmatrix}
 ```
@@ -57,7 +53,7 @@ Die Aussage ist also wahr.
 
 #### Aufgabe:
 
-Zur Herstellung des Auftrags $a$ der Endprodukte ergibt sich als Vektor der dafür erforderlichen Rohstoffe in ME: $\left(R_1,\,R_2,\,R_3\right)^T=\left(155,\, 210, 130\right)^T$
+Zur Herstellung des Auftrags $a$ der Endprodukte ergibt sich als Vektor der dafür erforderlichen Rohstoffe in ME: $\left(R_1,R_2,R_3\right)^T=\left(155, 210, 130\right)^T$
 
 #### Überlegungen:
 
@@ -67,17 +63,17 @@ Gesucht scheint ja einfach nur die benötigte Gesamtmenge aller Rohstoffe zu sei
 
 **Rohstoff-Vektoren**
 
-$e_1$ = $\left(1,\,0,\,4\right)^T$\
-$e_2$ = $\left(4,\,6,\,2\right)^T$
+$e_1$ = $\left(1,0,4\right)^T$\
+$e_2$ = $\left(4,6,2\right)^T$
 
 **Multiplizieren mit Auftrags-Mengen**
 
-$e_1 * 15$ = $\left(15,\,0,\,60\right)^T$\
-$e_2 * 35$ = $\left(140,\,210,\,70\right)^T$
+$e_1 * 15$ = $\left(15,0,60\right)^T$\
+$e_2 * 35$ = $\left(140,210,70\right)^T$
 
 **Summieren der Vektoren**
 
-$\left(15,\,0,\,60\right)^T + \left(140,\,210,\,70\right)^T = \left(155,\,210,\,130\right)^T$
+$\left(15,0,60\right)^T + \left(140,210,70\right)^T = \left(155,210,130\right)^T$
 
 Die Aussage ist also wahr
 
@@ -87,7 +83,7 @@ Die Aussage ist also wahr
 
 #### Aufgabe:
 
-Zur Herstellung des Auftrags der Endprodukte und ergibt sich als Vektor der dafür erforderlichen Rohstoffe in ME: $\left(R_1,\,R_2,\,R_3\right)^T=\left(155,\, 130,\, 210\right)^T$
+Zur Herstellung des Auftrags der Endprodukte und ergibt sich als Vektor der dafür erforderlichen Rohstoffe in ME: $\left(R_1,R_2,R_3\right)^T=\left(155, 130, 210\right)^T$
 
 #### Überlegungen:
 
