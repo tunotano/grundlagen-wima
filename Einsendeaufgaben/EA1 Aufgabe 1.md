@@ -8,7 +8,7 @@ Bestimmen Sie wahre Aussagen:
 | B    | -      | Für alle $a,b \in \mathbb{R}$ mit $a,b \geq 0$ gilt: $`\| \left( 2a, 2b\right) ^T\| = 4\cdot \|\left(a, b \right)^T\|`$                                                       |
 | C    | X      | Gegeben sei die Gewinnfunktion $G(x)= - 0.02x^2 + 6x - 200$, wobei x die herzustellende Menge angibt ($x\geq 0$). Dann liegt an der Stelle $x_0=150$ ein Gewinnmaximum vor.   |
 | D    | X      | Im Gewinnmaximum $\left(x_0, G(x_0)\right)$ stimmt der Grenzerlös $E'(x_0)$ mit den Grenzkosten $K'(x_0)$ überein.                                                            |
-| E    | X      | $\left\| \left( 3, -5, -1, 1\right) ^T\right\| = \|\left(-4, 2, 4 \right)^T\|$                                                                                                |
+| E    | X      | $\| \left( 3, -5, -1, 1\right) ^T\| = \|\left(-4, 2, 4 \right)^T\|$                                                                                                           |
 
 ---
 

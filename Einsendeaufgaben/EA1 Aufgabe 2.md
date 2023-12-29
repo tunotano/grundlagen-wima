@@ -28,13 +28,15 @@ Wenn die Funktion ein lokales Maximum an einer Stelle haben soll, dann muss gelt
 
 #### Berechnung:
 
-**Funktion ausschreiben**\
+**Funktion ausschreiben**
+
 $f(x) = (x^2 + 5) * (x + 3)^2$\
 $\Rightarrow f(x) = (x^2 + 5) * (x^2 + 6x + 9)$\
 $\Rightarrow f(x) = x^4 + 6x^3 + 9x^2 + 5x^2 + 30x + 45$\
 $\Rightarrow f(x) = x^4 + 6x^3 + 14x^2 + 30x + 45$
 
-**1. Ableitung bilden**\
+**1. Ableitung bilden**
+
 $f(x) = x^4 + 6x^3 + 14x^2 + 30x + 45$\
 $\Rightarrow f'(x) = 4x^3 + 18x^2 + 28x + 30$
 
@@ -43,12 +45,14 @@ $f'(-3) = 4*(-3)^3 + 18*(-3)^2 + 28*(-3) + 30 = 0$
 
 Die 1. Ableitung ist 0, es liegt also ein Extrempunkt vor. Wir müssen jetzt noch die 2. Ableitung bilden, um zu prüfen, welche Art von Extrempunkt.
 
-**2. Ableitung bilden**\
-$f'(x) = 4x^3 + 18x^2 + 28x + 30$
-$\Rightarrow f"(x) = 12x^2 + 36x + 28$
+**2. Ableitung bilden**
 
-**Einsetzen**\
-$f"(-3) = 12(-3)^2 + 36*(-3) + 28 = 28$
+$f'(x) = 4x^3 + 18x^2 + 28x + 30$
+$\Rightarrow f''(x) = 12x^2 + 36x + 28$
+
+**Einsetzen**
+
+$f''(-3) = 12(-3)^2 + 36*(-3) + 28 = 28$
 
 Die 2. Ableitung ist größer als 0, der Extremwert ist also ein Minimum. Die Aussage ist daher falsch.
 
@@ -66,7 +70,8 @@ Wie A
 
 #### Berechnung:
 
-**Einsetzen in 1. Ableitung**\
+**Einsetzen in 1. Ableitung**
+
 $f'(3) = 4*3^3 + 18*3^2 + 28*3 + 30 = 0$
 
 Die 1. Ableitung ist nicht 0, der Wert ist also keine Extremstelle und die Aussage falsch.
