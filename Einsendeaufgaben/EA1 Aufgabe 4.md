@@ -41,13 +41,18 @@ Die Aussage ist wahr
 
 Die Hesse-Matrix **H** der Nachfragefunktion $f(x,y)$ lautet: 
 
-$\textbf{H} (x,y) = \begin{pmatrix} -1 & -1 \\ -1 & ~~-1-\frac{1}{y^2}\end{pmatrix}$
+```math
+\textbf{H} (x,y) = \begin{pmatrix} -1 & -1 \\ -1 & ~~-1-\frac{1}{y^2}\end{pmatrix}
+```
+
 
 #### Überlegungen:
 
 Die Hesse-Matrix beinhaltet die partiellen Ableitungen der Funktion nach dem Schema:
 
-$$\textbf{H} (x,y) = \begin{pmatrix} f_{xx} & f_{xy} \\ f_{yx} & f_{yy}\end{pmatrix}$$
+```math
+\textbf{H} (x,y) = \begin{pmatrix} f_{xx} & f_{xy} \\ f_{yx} & f_{yy}\end{pmatrix}
+```
 
 Wir müssen also nur diese Ableitungen bilden.
 
@@ -89,7 +94,9 @@ Die Aussage ist falsch, siehe A
 
 Die Hesse-Matrix **H** der Nachfragefunktion $f(x,y)$ lautet: 
 
-$$\textbf{H} (x,y) = \begin{pmatrix} -1 & 1 \\ 1 & ~~-1-\frac{1}{y^2}\end{pmatrix}$$
+```math
+\textbf{H} (x,y) = \begin{pmatrix} -1 & 1 \\ 1 & ~~-1-\frac{1}{y^2}\end{pmatrix}
+```
 
 Die Aussage ist wahr, siehe B
 
