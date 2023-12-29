@@ -53,4 +53,9 @@ var m2 = M.DenseOfArray(matrix2);
 
 var result = m1.Multiply(m2);
 
-result.ToMatrixString()
+Console.WriteLine("Matrix 1:");
+Console.WriteLine(m1.ToMatrixString());
+Console.WriteLine("Matrix 2:");
+Console.WriteLine(m2.ToMatrixString());
+Console.WriteLine("Matrix 1 * Matrix 2:");
+Console.WriteLine(result.ToMatrixString());

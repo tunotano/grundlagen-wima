@@ -83,7 +83,7 @@ Nachdem keine Aussage über einen Restwert am Ende der Abschreibung gemacht wurd
 #### Lösung
 
 - Abschreibung über 5 Jahre, also 5 + 4 + 3 + 2 + 1 = 15 "Teile"
-- Gesamtsumme 60000, also 1 Teil: 
+- Gesamtsumme 60000, also 1 Teil: 60000/15 = 4000
 
 | Jahr | Teile | Abschreibung | Rest  |
 | ---- | ----- | ------------ | ----- |

@@ -2,7 +2,7 @@
 
 Berechnen Sie $x \in \mathbb{R}$ und geben Sie die Lösung an:
 
-$\begin{pmatrix} 8 & ~4 & ~1 & -1 \\ -2& ~5 & ~0 & ~2 \\ 3 & -6 & ~4 & ~4 \\ 0 & -2 & ~6 & ~0 \\ 7 & ~3 & ~2 & ~8 \end{pmatrix} \cdot \begin{pmatrix} 2 & -4 & ~6 & ~4 \\ 10 & ~5 & ~x & -2 \\ -2 & ~0 & -1 & ~0\\ 4 & ~2 & ~5 & ~8 \\ \end{pmatrix} = \begin{pmatrix} 50 & -14 & ~46 & ~16 \\ 54 & ~37 & ~3 & -2 \\ -46 & -34 & ~28 & ~56 \\ -32 & -10 & -8 & ~4 \\ 72 & 3 & 83 & 86 \end{pmatrix}$
+![](images/8Matrix.png)
 
 ---
 
