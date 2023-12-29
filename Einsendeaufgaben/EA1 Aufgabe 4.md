@@ -6,10 +6,12 @@ $z=f(x,y)= -\frac{1}{4}x + \ln y  -\frac{1}{2}(y-x)^2 + 15$
 
 Bestimmen Sie wahre Aussagen:
 
-| Teil | Lösung | Aussage                                                                                                                                              |
-| ---- | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| A    | X      | Die partielle Ableitung 1. Ordnung nach $x$ lautet: $f_x(x,y) = -x +y -\frac{1}{4}$                                                                  |
-| B    | -      | Die Hesse-Matrix **H** der Nachfragefunktion $f(x,y)$ lautet: $$\textbf{H} (x,y) = \begin{pmatrix} -1 & -1 \\ -1 & ~~-1-\frac{1}{y^2}\end{pmatrix}$$ |
+| Teil | Lösung | Aussage                                                                             |
+| ---- | ------ | ----------------------------------------------------------------------------------- |
+| A    | X      | Die partielle Ableitung 1. Ordnung nach $x$ lautet: $f_x(x,y) = -x +y -\frac{1}{4}$ |
+| B    | -      | Die Hesse-Matrix **H** der Nachfragefunktion $f(x,y)$ lautet: ```math               |
+\textbf{H} (x,y) = \begin{pmatrix} -1 & -1 \\ -1 & ~~-1-\frac{1}{y^2}\end{pmatrix}
+```|
 | C    | -      | Die partielle Ableitung 1. Ordnung nach $x$ lautet: $f_x(x,y) = x-y -\frac{1}{4}$                                                                    |
 | D    | X      | Die Hesse-Matrix **H** der Nachfragefunktion $f(x,y)$ lautet: $$\textbf{H} (x,y) = \begin{pmatrix} -1 & 1 \\ 1 & ~~-1-\frac{1}{y^2}\end{pmatrix}$$   |
 | E    | -      | Die Nachfragefunktion $f(x,y)$ hat bei einem Apfelpreis von $x=\frac{15}{4}$ und einem Apfelsaftpreis von $y=4$ einen stationären Punkt.             |
@@ -71,7 +73,9 @@ $f_{xx}(x,y) = -1$\
 $f_{xy}(x,y) = f_{yx}(x,y) = 1$\
 $f_{yy}(x,y) = -1 * y^{-2} -1 = -1 -\frac{1}{y^2}$
 
-$\textbf{H} (x,y) = \begin{pmatrix} -1 & 1 \\ 1 & -1 -\frac{1}{y^2}\end{pmatrix}$
+```math
+\textbf{H} (x,y) = \begin{pmatrix} -1 & 1 \\ 1 & -1 -\frac{1}{y^2}\end{pmatrix}
+```
 
 Die Aussage ist also falsch.
 
