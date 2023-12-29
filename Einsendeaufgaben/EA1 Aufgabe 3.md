@@ -12,6 +12,8 @@ Des Weiteren sind der Vektor der Stückkosten $k$ für die Rohstoffe in Euro/ME,
 
 ![](images/3Vektoren.png)
 
+$\textbf{k}=\begin{pmatrix} 2 \\\ 12 \\\ 3 \end{pmatrix}, \quad\qquad\qquad \textbf{a}= \begin{pmatrix}  15 \\\ 35 \end{pmatrix}, \quad\qquad\qquad\textbf{p}=\begin{pmatrix} 90 \\\ 60 \end{pmatrix}$
+
 Bestimmen Sie wahre Aussagen zu obenstehendem Sachverhalt:
 
 | Teil | Lösung | Aussage                                                                                                                                                                               |
