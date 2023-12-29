@@ -47,7 +47,7 @@ Die 1. Ableitung ist 0, es liegt also ein Extrempunkt vor. Wir müssen jetzt noc
 
 **2. Ableitung bilden**
 
-$f'(x) = 4x^3 + 18x^2 + 28x + 30$
+$f'(x) = 4x^3 + 18x^2 + 28x + 30$\
 $\Rightarrow f''(x) = 12x^2 + 36x + 28$
 
 **Einsetzen**

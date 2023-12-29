@@ -14,15 +14,19 @@ Des Weiteren sind der Vektor der Stückkosten $k$ für die Rohstoffe in Euro/ME,
 
 $$\textbf{k}=\begin{pmatrix} 2 \\ 12 \\ 3 \end{pmatrix}, \quad\qquad\qquad \textbf{a}= \begin{pmatrix}  15 \\ 35 \end{pmatrix}, \quad\qquad\qquad\textbf{p}=\begin{pmatrix} 90 \\ 60 \end{pmatrix}$$
 
+```math
+\textbf{k}=\begin{pmatrix} 2 \\ 12 \\ 3 \end{pmatrix}, \quad\qquad\qquad \textbf{a}= \begin{pmatrix}  15 \\ 35 \end{pmatrix}, \quad\qquad\qquad\textbf{p}=\begin{pmatrix} 90 \\ 60 \end{pmatrix}
+```
+
 Bestimmen Sie wahre Aussagen zu obenstehendem Sachverhalt:
 
-| Teil | Lösung | Aussage                                                                                                                                                                               |
-| ---- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| A    | X      | Die gesamten Rohstoffkosten für alle Endproduktmengen von Auftrag $a$ betragen insgesamt 3220 Euro.                                                                                   |
-| B    | X      | Zur Herstellung des Auftrags $a$ der Endprodukte ergibt sich als Vektor der dafür erforderlichen Rohstoffe in ME: $$\left(R_1,\,R_2,\,R_3\right)^T=\left(155,\, 210, 130\right)^T$$   |
-| C    | -      | Zur Herstellung des Auftrags der Endprodukte und ergibt sich als Vektor der dafür erforderlichen Rohstoffe in ME: $$\left(R_1,\,R_2,\,R_3\right)^T=\left(155,\, 130,\, 210\right)^T$$ |
-| D    | X      | Der Erlös des Auftrags a beträgt 3450 Euro.                                                                                                                                           |
-| E    | -      | Die Rohstoffkosten für 20 Mengeneinheiten des Endproduktes $E_1$ betragen 340 Euro.                                                                                                   |
+| Teil | Lösung | Aussage                                                                                                                                                                         |
+| ---- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| A    | X      | Die gesamten Rohstoffkosten für alle Endproduktmengen von Auftrag $a$ betragen insgesamt 3220 Euro.                                                                             |
+| B    | X      | Zur Herstellung des Auftrags $a$ der Endprodukte ergibt sich als Vektor der dafür erforderlichen Rohstoffe in ME: $$\left(R_1, R_2, R_3\right)^T=\left(155, 210, 130\right)^T$$ |
+| C    | -      | Zur Herstellung des Auftrags der Endprodukte und ergibt sich als Vektor der dafür erforderlichen Rohstoffe in ME: $$\left(R_1, R_2, R_3\right)^T=\left(155, 130, 210\right)^T$$ |
+| D    | X      | Der Erlös des Auftrags a beträgt 3450 Euro.                                                                                                                                     |
+| E    | -      | Die Rohstoffkosten für 20 Mengeneinheiten des Endproduktes $E_1$ betragen 340 Euro.                                                                                             |
 
 ---
 
@@ -40,10 +44,10 @@ Man könnte die Kosten für eine Produktmenge errechnen und dann mit der Gesamta
 
 **Kosten Endprodukte**
 
-Kosten $$E_1: 1*2 + 4*3 = 14$$\
-Kosten $$E_2: 4*2 + 6*12 + 2*3 = 86$$
+Kosten $E_1$: $(1*2) + (4*3) = 14$\
+Kosten $E_2$: $(4*2) + (6*12) + (2*3) = 86$
 
-Gesamtkosten: $15*E_1 + 35*E_2 = 15*14 + 35*86 = 3220$
+Gesamtkosten: $(15*E_1) + (35*E_2) = (15*14) + (35*86) = 3220$
 
 Die Aussage ist also wahr.
 
