@@ -40,7 +40,7 @@ Man könnte die Kosten für eine Produktmenge errechnen und dann mit der Gesamta
 
 **Kosten Endprodukte**
 
-Kosten $E_1$: $(1*2) + (4*3) = 14$\
+Kosten $E_1$: $(1 * 2) + (4 * 3) = 14$\
 Kosten $E_2$: $(4*2) + (6*12) + (2*3) = 86$
 
 Gesamtkosten: $(15*E_1) + (35*E_2) = (15*14) + (35*86) = 3220$
