@@ -171,7 +171,7 @@ Console.WriteLine(monatlicheVerzinsung);
 Output:
 
 ```
-Nomineller Jahreszins: 0.18\
-Effektiver Jahreszins: 19.56\
+Nomineller Jahreszins: 0.18
+Effektiver Jahreszins: 19.56
 1195.6181714615338
 ```
