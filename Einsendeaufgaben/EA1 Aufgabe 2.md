@@ -72,7 +72,7 @@ Wie A
 
 **Einsetzen in 1. Ableitung**
 
-$f'(3) = 4*3^3 + 18*3^2 + 28*3 + 30 = 0$
+$`f'(3) = (4*3)^3 + (18*3)^2 + (28*3) + 30 = 0`$
 
 Die 1. Ableitung ist nicht 0, der Wert ist also keine Extremstelle und die Aussage falsch.
 
