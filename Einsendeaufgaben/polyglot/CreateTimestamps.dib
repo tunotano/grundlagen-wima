@@ -1,0 +1,188 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"csharp","items":[{"aliases":[],"languageName":"csharp","name":"csharp"}]}}
+
+#!csharp
+
+record YoutubeData(string Name, string Url, List<TimestampData> TimestampData);
+record TimestampData(TimeOnly Timestamp, string Description);
+
+string youtubeBaseUrl = @"https://www.youtube.com/watch?v=";
+
+List<TimestampData> lecture1 = new(){
+    new TimestampData(new TimeOnly(00,02,08), "Summenzeichen"),
+    new TimestampData(new TimeOnly(00,08,16), "Fakultäten"),
+    new TimestampData(new TimeOnly(00,12,19), "Produktzeichen"),
+    new TimestampData(new TimeOnly(00,18,50), "Arithmetische Folgen"),
+    new TimestampData(new TimeOnly(00,27,36), "Geometrische Folgen"),
+    new TimestampData(new TimeOnly(00,36,46), "Arithmetische Folgen aufsummieren"),
+    new TimestampData(new TimeOnly(00,45,18), "Allg. Formel"),
+    new TimestampData(new TimeOnly(00,54,28), "Geometrische Folgen aufsummieren"),
+    new TimestampData(new TimeOnly(01,23,08), "Grenzwerte von Folgen"),
+    new TimestampData(new TimeOnly(01,30,44), "Grenzwerte spezieller Folgen"),
+    new TimestampData(new TimeOnly(01,37,16), "Grenzwerte von Reihen"),
+};
+
+
+List<TimestampData> lecture2 = new(){
+    new TimestampData(new TimeOnly(00,04,10), "Einfache Verzinsung"),
+    new TimestampData(new TimeOnly(00,14,50), "Zinseszins"),
+    new TimestampData(new TimeOnly(00,37,40), "Aufzinsen und abzinsen"),
+    new TimestampData(new TimeOnly(00,40,15), "Unterjährige Verzinsung"),
+    new TimestampData(new TimeOnly(00,43,15), "Monatliche Verzinsung"),
+    new TimestampData(new TimeOnly(00,50,10), "Tägliche Verzinsung"),
+    new TimestampData(new TimeOnly(00,57,10), "Stetige Verzinsung"),
+    new TimestampData(new TimeOnly(01,04,10), "Effektiver Jahreszins"),
+    new TimestampData(new TimeOnly(01,14,45), "Periodische Zahlungen"),
+    new TimestampData(new TimeOnly(01,20,15), "Endkapital bei nachschüssiger konstanter Zahlung (Annuität)"),
+    new TimestampData(new TimeOnly(01,24,05), "Endkapital bei vorschüssiger konstanter Zahlung"),
+    new TimestampData(new TimeOnly(01,37,40), "Endkapital bei nachschüssiger nicht-konstanter Zahlung"),
+    new TimestampData(new TimeOnly(01,45,00), "Endkapital bei vorschüssiger nicht-konstanter Zahlung"),
+    new TimestampData(new TimeOnly(01,47,00), "Barwert"),
+    new TimestampData(new TimeOnly(01,58,00), "Barwert einer ewigen Rente"),
+    new TimestampData(new TimeOnly(02,17,20), "Tilgung eines Kredits"),
+
+};
+
+
+List<TimestampData> lecture3 = new(){
+    new TimestampData(new TimeOnly(00,06,55), "Ableitung einer Funktion"),
+    new TimestampData(new TimeOnly(00,32,40), "Konstantenregel"),
+    new TimestampData(new TimeOnly(00,35,15), "Ableitung einer Potenzfunktion"),
+    new TimestampData(new TimeOnly(00,47,10), "Sonderfunktionen: e-, log-, trigonometrische F"),
+    new TimestampData(new TimeOnly(00,50,30), "Summenregel"),
+    new TimestampData(new TimeOnly(00,54,10), "Faktorregel"),
+    new TimestampData(new TimeOnly(01,04,00), "Produktregel"),
+    new TimestampData(new TimeOnly(01,20,00), "Quotientenregel"),
+    new TimestampData(new TimeOnly(01,49,00), "Kettenregel"),
+};
+
+
+List<TimestampData> lecture4 = new(){
+    new TimestampData(new TimeOnly(00,00,00), "Höhere Ableitungen"),
+    new TimestampData(new TimeOnly(00,03,35), "Elastizitäten"),
+    new TimestampData(new TimeOnly(00,15,30), "Monotonieverhalten von Funktionen"),
+    new TimestampData(new TimeOnly(00,28,30), "Krümmungsverhalten von Funktionen"),
+    new TimestampData(new TimeOnly(00,39,15), "Optimierung: Minimum, Maximum"),
+    new TimestampData(new TimeOnly(01,04,00), "Wendepunkte"),
+    new TimestampData(new TimeOnly(01,20,15), "Sattelpunkt"),
+    new TimestampData(new TimeOnly(01,23,20), "L'Hospital"),
+    new TimestampData(new TimeOnly(01,45,00), "Newton-Verfahren"),
+    new TimestampData(new TimeOnly(02,23,05), "Funktionen mit mehreren Variablen"),
+    new TimestampData(new TimeOnly(02,55,40), "Cobb-Douglas"),
+    new TimestampData(new TimeOnly(03,08,40), "Gradient einer Funktion + Hesse-Matrix"),
+};
+
+
+List<TimestampData> lecture5 = new(){
+    new TimestampData(new TimeOnly(00,00,00), "Ketten- und Produktregel bei part. Ableitungen"),
+    new TimestampData(new TimeOnly(00,13,35), "Integralrechnung: Unbestimmtes Integral"),
+    new TimestampData(new TimeOnly(00,23,10), "Summenregel"),
+    new TimestampData(new TimeOnly(00,28,10), "Stammfunktion der Potenzfunktion"),
+    new TimestampData(new TimeOnly(00,34,40), "Konstantenregel"),
+    new TimestampData(new TimeOnly(00,41,10), "Stammfunktionen ausgewählter Funktionen"),
+    new TimestampData(new TimeOnly(00,45,40), "Partielle Integration"),
+    new TimestampData(new TimeOnly(00,57,50), "Substitutionsregel"),
+    new TimestampData(new TimeOnly(01,35,40), "Integralrechnung: Bestimmtes Integral"),
+    new TimestampData(new TimeOnly(01,47,10), "Hauptsatz der Integralrechnung"),
+    new TimestampData(new TimeOnly(01,54,40), "Eigenschaften bestimmter Integrale"),
+    new TimestampData(new TimeOnly(02,04,50), "Summenregel, partielle Integration, Substitutionsregel"),
+};
+
+
+List<TimestampData> lecture6 = new(){
+    new TimestampData(new TimeOnly(00,00,00), "Vektoren"),
+    new TimestampData(new TimeOnly(00,07,10), "Addition/Subtraktion von Vektoren"),
+    new TimestampData(new TimeOnly(00,11,30), "Multiplikation mit einem Skalar"),
+    new TimestampData(new TimeOnly(00,15,10), "Vergleich von Vektoren"),
+    new TimestampData(new TimeOnly(00,23,40), "Nullvektor, Einheitsvektor, Transponierter Vektor"),
+    new TimestampData(new TimeOnly(00,28,30), "Skalarprodukt"),
+    new TimestampData(new TimeOnly(00,37,20), "Orthogonalität von Vektoren"),
+    new TimestampData(new TimeOnly(00,38,00), "Länge eines Vektors, euklidische Norm"),
+    new TimestampData(new TimeOnly(00,44,20), "Dreiecksungleich für Vektoren"),
+    new TimestampData(new TimeOnly(00,53,15), "Linearkombinationen"),
+    new TimestampData(new TimeOnly(01,11,30), "Lineare Unabhängigkeit"),
+    new TimestampData(new TimeOnly(01,35,45), "Matrizen"),
+    new TimestampData(new TimeOnly(01,41,30), "Addition/Subtraktion von Matrizen"),
+    new TimestampData(new TimeOnly(01,47,05), "Multiplikation mit einem Skalar"),
+    new TimestampData(new TimeOnly(01,49,40), "Multiplikation von Matrizen"),
+    new TimestampData(new TimeOnly(02,06,00), "Transponierte Matrix"),
+    new TimestampData(new TimeOnly(02,14,15), "Weitere Eigenschaften von Matrizen"),
+    new TimestampData(new TimeOnly(02,23,10), "Rechenregeln für Matrizen"),
+};
+
+
+List<TimestampData> lecture7 = new(){
+    new TimestampData(new TimeOnly(00,00,40), "Basis des R^n"),
+    new TimestampData(new TimeOnly(00,14,40), "Lineare Gleichungssysteme (LGS)"),
+    new TimestampData(new TimeOnly(00,31,30), "Äquivalente Termumformungen bei LGS"),
+    new TimestampData(new TimeOnly(00,35,45), "Lösung eines LGS (Gaußsches Eliminationsverfahren)"),
+    new TimestampData(new TimeOnly(01,41,05), "Inverse einer quadratischen Matrix"),
+    new TimestampData(new TimeOnly(02,09,00), "Zusammenhang zwischen LGS und Inversen"),
+    new TimestampData(new TimeOnly(02,18,45), "Rang einer Matrix"),
+    new TimestampData(new TimeOnly(02,55,50), "Zusammenhang Rang Matrix und LGS"),
+};
+
+
+List<TimestampData> lecture8 = new(){
+    new TimestampData(new TimeOnly(00,00,40), "Simplex (zur Lösung linearer Optimierungsaufgaben)"),
+    new TimestampData(new TimeOnly(00,15,50), "Zielfunktion & Restriktionen"),
+    new TimestampData(new TimeOnly(00,29,20), "Umschreiben Zielfunktionen, Einführen Schlupfvariablen"),
+    new TimestampData(new TimeOnly(00,38,20), "Simplex-Tabelle erstellen"),
+    new TimestampData(new TimeOnly(00,46,00), "(Nicht-)Basisvariablen"),
+    new TimestampData(new TimeOnly(00,49,45), "Bestimmung des Pivotelements"),
+    new TimestampData(new TimeOnly(00,58,10), "1. Umrechnung Tabelle mit Gaußschem Eliminationsverfahren"),
+    new TimestampData(new TimeOnly(01,16,50), "2. Umrechnung Tabelle mit Gaußschem Eliminationsverfahren"),
+    new TimestampData(new TimeOnly(01,34,35), "Interpretation"),
+    new TimestampData(new TimeOnly(01,53,00), "Allgemeine Vorgehensweise Simplex"),
+    new TimestampData(new TimeOnly(02,04,10), "Graphische Lösung eines LOP"),
+};
+
+List<YoutubeData> dataItems = new()
+{
+    new YoutubeData("Mentoriat 1", "mWVn7EslMyc", lecture1),
+    new YoutubeData("Mentoriat 2", "oxWIuzQQViY", lecture2),
+    new YoutubeData("Mentoriat 3", "-xG7Z9ikXus", lecture3),
+    new YoutubeData("Mentoriat 4", "2z84-b3sSww", lecture4),
+    new YoutubeData("Mentoriat 5", "MS9w3rUTtjA", lecture5),
+    new YoutubeData("Mentoriat 6", "Qq-WxRZFE2s", lecture6),
+    new YoutubeData("Mentoriat 7", "MNQ9OMhksCg", lecture7),
+    new YoutubeData("Mentoriat 8", "RORFzM9Mugc", lecture8),
+};
+
+StringBuilder builder = new();
+
+void ParseTimestampsCreateYoutubeUrls()
+{
+
+    foreach (var dataItem in dataItems)
+    {
+        builder.AppendLine($"## {dataItem.Name}");
+        builder.AppendLine();
+
+        builder.AppendLine("|Timestamp|Beschreibung|");
+        builder.AppendLine("|-|-|");
+        string videoUrl = $"{youtubeBaseUrl}{dataItem.Url}";
+
+        foreach (var (timestamp, desc) in dataItem.TimestampData)
+        {
+            string displayTimestamp = ReadableTimestamp(timestamp);
+            string urlTimestamp = $"&t={YTTimestamp(timestamp)}";
+            string fullUrl = $"{videoUrl}{urlTimestamp}";
+            string markdownUrl = $"[{displayTimestamp}]({fullUrl})";
+            builder.AppendFormat("|{0}|{1}|",markdownUrl,desc).AppendLine();
+        }
+
+        builder.AppendLine();
+        builder.AppendLine();
+    }
+
+
+}
+
+string ReadableTimestamp(TimeOnly to) => to.ToString("HH:mm:ss");
+int YTTimestamp(TimeOnly to) => (int)to.ToTimeSpan().TotalSeconds;
+
+ParseTimestampsCreateYoutubeUrls();
+
+builder.ToString()
