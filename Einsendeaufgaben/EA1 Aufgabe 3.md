@@ -103,8 +103,8 @@ Erlös errechnet sich einfach aus der Auftragsmenge * Verkaufspreise.
 
 #### Berechnung
 
-Erlös $E_1$: $15*90 = 1350$\
-Erlös $E_2$: $35*60 = 2100$
+Erlös $E_1$: $15 * 90 = 1350$\
+Erlös $E_2$: $35 * 60 = 2100$
 
 Erlös gesamt: $1350 + 2100 = 3450$
 
